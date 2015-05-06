@@ -1,0 +1,6 @@
+C:\Work\Claim\Project2-NET041815\RobCabardo\StringManipulation\bin\Debug\StringManipulation.exe.config
+C:\Work\Claim\Project2-NET041815\RobCabardo\StringManipulation\bin\Debug\StringManipulation.exe
+C:\Work\Claim\Project2-NET041815\RobCabardo\StringManipulation\bin\Debug\StringManipulation.pdb
+C:\Work\Claim\Project2-NET041815\RobCabardo\StringManipulation\obj\Debug\StringManipulation.csprojResolveAssemblyReference.cache
+C:\Work\Claim\Project2-NET041815\RobCabardo\StringManipulation\obj\Debug\StringManipulation.exe
+C:\Work\Claim\Project2-NET041815\RobCabardo\StringManipulation\obj\Debug\StringManipulation.pdb

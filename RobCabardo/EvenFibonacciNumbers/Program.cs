@@ -12,8 +12,8 @@ namespace EvenFibonacciNumbers
         {
             int sum = fibonacciSequence();
 
-            //The sum of the even numbers (not exceeding 4,000,000)
-            //within the fibonacci sequence equeals 4,613,732
+            //The sum of the even numbers within the fibonacci
+            //sequence (not exceeding 4,000,000) equeals 4,613,732
             Console.WriteLine("Sum of all even-valued terms in Fibonacci Sequence = {0:n0}", sum);
             Console.ReadLine();
         }
