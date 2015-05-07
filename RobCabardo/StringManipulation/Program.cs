@@ -14,7 +14,7 @@ namespace StringManipulation
             string userInput = Console.ReadLine();
 
             char[] array = userInput.ToLower().ToCharArray();
-            char[] newArray = new char[26] { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
+            char[] alphabet = new char[26] { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
 
             int x = 0;
 
@@ -26,13 +26,13 @@ namespace StringManipulation
                     i = -1;
                     continue;
                 }
-                if (array[x] == newArray[i])
+                if (array[x] == alphabet[i])
                 {
                     if (array[x] == 'z')
                         Console.Write("a");
                     else
                     {
-                        Console.Write(newArray[i + 1]);
+                        Console.Write(alphabet[i + 1]);
                         x++;
                         i = -1;
                     }
