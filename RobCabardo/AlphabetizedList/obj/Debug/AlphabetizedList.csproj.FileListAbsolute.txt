@@ -1,0 +1,8 @@
+C:\Work\Claim\Project2-NET041815\RobCabardo\AlphabetizedList\bin\Debug\AlphabetizedList.exe.config
+C:\Work\Claim\Project2-NET041815\RobCabardo\AlphabetizedList\bin\Debug\AlphabetizedList.exe
+C:\Work\Claim\Project2-NET041815\RobCabardo\AlphabetizedList\bin\Debug\AlphabetizedList.pdb
+C:\Work\Claim\Project2-NET041815\RobCabardo\AlphabetizedList\obj\Debug\AlphabetizedList.csprojResolveAssemblyReference.cache
+C:\Work\Claim\Project2-NET041815\RobCabardo\AlphabetizedList\obj\Debug\AlphabetizedList.exe
+C:\Work\Claim\Project2-NET041815\RobCabardo\AlphabetizedList\obj\Debug\AlphabetizedList.pdb
+C:\Work\Claim\Project2-NET041815\RobCabardo\AlphabetizedList\bin\Debug\names.txt
+C:\Work\Claim\Project2-NET041815\RobCabardo\AlphabetizedList\bin\Debug\p4aNames.txt
