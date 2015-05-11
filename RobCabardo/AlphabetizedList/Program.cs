@@ -23,15 +23,9 @@ namespace AlphabetizedList
 
             Array.Sort(words);
 
-            Console.WriteLine("Creating new file (p4aNames.txt)...");
+            File.WriteAllLines(@"C:\Work\Claim\Project2-NET041815\answers\p4aNames.txt", words);
 
-            foreach (string word in words)
-            {
-                string text = Environment.NewLine + word;
-                System.IO.File.AppendAllText(@"C:\Work\Claim\Project2-NET041815\answers\p4aNames.txt", text);
-            }
-
-            Console.Write("Complete. Press any key... ");
+            Console.WriteLine("1. Create new file (p4aNames.txt)");
             Console.ReadKey();
 
             Dictionary<char, int> dictionary = new Dictionary<char, int>();
@@ -71,8 +65,6 @@ namespace AlphabetizedList
             StreamReader myReader = new StreamReader("p4aNames.txt");
             string newLine = "";
 
-            Console.WriteLine("Creating new file (p4bNames.txt)...");
-
             while (newLine != null)
             {
                 newLine = myReader.ReadLine();
@@ -82,7 +74,7 @@ namespace AlphabetizedList
                     {
                         if (dictionary.TryGetValue(letter, out alphaValue))
                         {
-                            alphaValueTotal = alphaValueTotal + alphaValue;
+                            alphaValueTotal += alphaValue;
                         }
                     }
 
@@ -90,17 +82,17 @@ namespace AlphabetizedList
                     totalNameScores = totalNameScores + nameScore;
 
                     string text = Environment.NewLine + nameScore;
-                    System.IO.File.AppendAllText(@"C:\Work\Claim\Project2-NET041815\answers\p4bNames.txt", text);
+                    File.AppendAllText(@"C:\Work\Claim\Project2-NET041815\answers\p4bNames.txt", Convert.ToString(text));
 
                     alphaValueTotal = 0;
                     alphaPosition++;
                 }
             }
 
-            myReader.Close();
-
-            Console.Write("Complete. Press any key... ");
+            Console.WriteLine("2. Create new file (p4bNames.txt)");
             Console.ReadKey();
+
+            myReader.Close();
 
             Console.WriteLine("Total of all name scores in file: {0:N0}", totalNameScores);
             Console.Write("Press any key to exit... ");

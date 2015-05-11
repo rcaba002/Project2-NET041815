@@ -10,7 +10,7 @@ namespace EvenFibonacciNumbers
     {
         static void Main(string[] args)
         {
-            int sum = fibonacciSequence();
+            int sum = getSumOfEvenFibNums();
 
             //The sum of the even numbers within the fibonacci
             //sequence (not exceeding 4,000,000) equeals 4,613,732
@@ -18,21 +18,21 @@ namespace EvenFibonacciNumbers
             Console.ReadLine();
         }
 
-        static int fibonacciSequence()
+        static int getSumOfEvenFibNums()
         {
-            int a = 1;
-            int b = 2;
-            int c = 0;
+            int firstNum = 1;
+            int secondNum = 2;
+            int total = 0;
             int sum = 2;
 
-            while (c < 4000000)
+            while (total < 4000000)
             {
-                c = b + a;
-                a = b;
-                b = c;
+                total = secondNum + firstNum;
+                firstNum = secondNum;
+                secondNum = total;
 
-                if (c % 2 == 0 && c < 4000000)
-                    sum = sum + c;
+                if (total % 2 == 0 && total < 4000000)
+                    sum = sum + total;
             }
 
             return sum;

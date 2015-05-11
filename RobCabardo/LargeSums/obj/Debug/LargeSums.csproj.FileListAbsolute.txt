@@ -1,0 +1,7 @@
+C:\Work\Claim\Project2-NET041815\RobCabardo\LargeSums\bin\Debug\LargeSums.exe.config
+C:\Work\Claim\Project2-NET041815\RobCabardo\LargeSums\bin\Debug\LargeSums.exe
+C:\Work\Claim\Project2-NET041815\RobCabardo\LargeSums\bin\Debug\LargeSums.pdb
+C:\Work\Claim\Project2-NET041815\RobCabardo\LargeSums\obj\Debug\LargeSums.csprojResolveAssemblyReference.cache
+C:\Work\Claim\Project2-NET041815\RobCabardo\LargeSums\obj\Debug\LargeSums.exe
+C:\Work\Claim\Project2-NET041815\RobCabardo\LargeSums\obj\Debug\LargeSums.pdb
+C:\Work\Claim\Project2-NET041815\RobCabardo\LargeSums\bin\Debug\longnums.txt
