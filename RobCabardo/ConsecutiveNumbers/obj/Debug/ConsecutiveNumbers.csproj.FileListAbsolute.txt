@@ -1,1 +1,6 @@
 C:\Work\Claim\Project2-NET041815\RobCabardo\ConsecutiveNumbers\bin\Debug\ConsecutiveNumbers.exe.config
+C:\Work\Claim\Project2-NET041815\RobCabardo\ConsecutiveNumbers\bin\Debug\ConsecutiveNumbers.exe
+C:\Work\Claim\Project2-NET041815\RobCabardo\ConsecutiveNumbers\bin\Debug\ConsecutiveNumbers.pdb
+C:\Work\Claim\Project2-NET041815\RobCabardo\ConsecutiveNumbers\obj\Debug\ConsecutiveNumbers.exe
+C:\Work\Claim\Project2-NET041815\RobCabardo\ConsecutiveNumbers\obj\Debug\ConsecutiveNumbers.pdb
+C:\Work\Claim\Project2-NET041815\RobCabardo\ConsecutiveNumbers\obj\Debug\ConsecutiveNumbers.csprojResolveAssemblyReference.cache
